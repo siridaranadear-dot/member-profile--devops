@@ -1,7 +1,7 @@
 // ---- editable racer data: change names/team text here ----
 const racers = {
-  female: { first: "Siridara", last: "Boonpermphoon", team: "TEAM ORACLE", number: "09" },
-  male:   { first: "Kittiphat", last: "ConsortChai", team: "TEAM ALPINE", number: "27" }
+  female: { first: "ณิชา", last: "วรรณสุข", team: "TEAM ORACLE", number: "07" },
+  male:   { first: "ธนภัทร", last: "ศักดิ์เจริญ", team: "TEAM ALPINE", number: "11" }
 };
 
 function applyRacerData(){
@@ -14,8 +14,8 @@ applyRacerData();
 
 // ---- bottom ticker content, duplicated for seamless loop ----
 const tickerItems = [
-  "SEASON 01", "GRID LEGENDS", "STARTING LIGHTS OUT", "FULL THROTTLE",
-  "PODIUM AWAITS", "SEASON 01", "GRID LEGENDS", "STARTING LIGHTS OUT", "FULL THROTTLE", "PODIUM AWAITS"
+  "TEAM MEMBERS", "GIT WORKFLOW", "CLICK A NAME TO VIEW PROFILE", "BRANCH · COMMIT · MERGE",
+  "TEAM MEMBERS", "GIT WORKFLOW", "CLICK A NAME TO VIEW PROFILE", "BRANCH · COMMIT · MERGE"
 ];
 const track = document.getElementById('tickerTrack');
 const html = tickerItems.map(t => `<span>${t}</span>`).join('');
